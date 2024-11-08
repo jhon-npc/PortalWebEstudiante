@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.contenedor__pdf{
+    background-color: beige;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+    font-weight: 700;
+}
+
+.verPdf{
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.pdf{
+    width:1000px;
+    height:700px;
+}
+
+/*---------------- ESTILO HEADER --------------------------------*/
+.nav-logo .logo{
+    width: 130px;
+    height: 130px;
+}
+.container__header{
+    background-color: #6a6a6a;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login__nombre{
+    font-size: 25px;
+}
+
+.login__boton {
+    width: 130px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background-color: rgb(201 75 75);
+    border: none;
+    color: white;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  
+  .login__boton:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }

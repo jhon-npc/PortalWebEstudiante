@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+/*---------------- ESTILO HEADER --------------------------------*/
+.container__header{
+    background-color: #6a6a6a;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login__nombre{
+    font-size: 25px;
+}
+
+.login__boton {
+    width: 130px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background-color: rgb(201 75 75);
+    border: none;
+    color: white;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  
+  .login__boton:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
+
+  .nav-logo .logo{
+    width: 130px;
+    height: 130px;
+}
+
+/*---------------- ESTILO CONETENEDOR --------------------------------*/
+
+.titulo__inicio{
+    text-align: center;
+    font-size: 32px;
+    padding: 50px 0px 0px 0px;
+} 
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px ;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.container2 .login__boton{
+    background-color: rgb(64 93 223);
+}
+.card{
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido input{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+/*
+@media () {
+    .card{
+        flex-direction: column;
+    }
+}*/
